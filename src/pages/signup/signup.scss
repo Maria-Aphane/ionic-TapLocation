@@ -56,6 +56,9 @@ page-signup {
         cursor: pointer;
         outline: none;
         &.outline {
+            height:45px;
+            width:290px;
+            left:-15px;
             position: relative;
             z-index: 3;
             background: transparent;
@@ -64,7 +67,7 @@ page-signup {
             border-color: #005792;
             border-style: solid;
             border-width: 2px;
-            border-radius:0px;
+            border-radius:5px;
             padding: 10px 15px;
             text-transform: uppercase;
             transition: all 0.2s linear;
